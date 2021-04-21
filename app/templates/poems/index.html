@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="poems_block">
+
+    {% if poem_list %}
+    
+    {% for poem in poem_list %}
+    <button><a href="{% url 'detail' poem.id %}">{{ poem.title }}</a></button>
+    {% endfor %}
+    
+    {% else %}
+    <p>No poems are available.</p>
+    {% endif %}
+
+    <button><a href="{% url 'add_poem'%}">+ add new poem</a></button>
+
+</div>
+
+{% endblock %}

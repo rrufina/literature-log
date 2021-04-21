@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display:400,700,400italic,700italic&subset=latin,cyrillic);
+
+body {
+    background-color: #d8bfd8;
+    font-family: 'Spartan'
+    /* font-family: 'Open Sans', sans-serif; */
+  }
+
+a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+    color: #101010; 
+  } 
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #ff6781;
+    color: #101010;
+    font-size: 30px;
+  }
+
+.poems_block {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.poems_block button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #ffe9fe; /* Green background */
+    border: 5px solid  pink; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 35%; /* Set a width if needed */
+    height: 100px;
+    display: block; /* Make the buttons appear below each other */
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+.add_poem {
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 20px;
+  }
+
+.add_poem h1 {
+  padding: 30px;
+  text-align: center;
+  color: #101010;
+  font-size: 25px;
+}
+
+.add_form {
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffe9fe;
+  padding: 50px 100px;
+  width: 50%;
+  border-top: 10px solid #ff6781;
+}
+
+.add_form label, input, textarea {
+  display: block;
+  width: 100%;
+  font-size: 12pt;
+  line-height: 24pt;
+  font-family: 'Spartan';
+}
+
+.add_form input {
+  margin-bottom: 24pt;
+}
+
+.add_form input[name=text] {
+  height: 300px;
+}
+
+.add_form button {
+  display: block;
+  float: right;
+  line-height: 24pt;
+  padding: 0 20px;
+  border: none;
+  background: #ff6781;
+  color: white;
+  letter-spacing: 2px;
+  transition: .2s all ease-in-out;
+  border-bottom: 2px solid transparent;
+  outline: none;
+}

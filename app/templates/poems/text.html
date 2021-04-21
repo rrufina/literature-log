@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+{% if author %}
+<p>{{ author }}</p>
+{% else %}
+<p>Unknown author</p>
+{% endif %}
+
+{% if title %}
+<p>{{ title }}</p>
+{% else %}
+<p>...</p>
+{% endif %}
+
+{% if text %}
+<p>{{ text }}</p>
+{% else %}
+<p></p>
+{% endif %}
+
+{% endblock %}
